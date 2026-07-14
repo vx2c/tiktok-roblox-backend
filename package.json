@@ -1,0 +1,18 @@
+{
+  "name": "servidortiktokdirecto",
+  "version": "1.0.0",
+  "description": "Sistema de interacción multiplataforma entre TikTok Live y Roblox.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["tiktok", "roblox", "live", "express"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "tiktok-live-connector": "^2.4.0"
+  }
+}
